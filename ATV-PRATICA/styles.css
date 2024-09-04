@@ -1,0 +1,153 @@
+/* Reset básico */
+html, body, h1, h2, h3, p, button, form, nav, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; /* Garante que o texto esteja centralizado */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 1000px;
+    height: 500px;
+
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.portfolio-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+form {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto;
+}
